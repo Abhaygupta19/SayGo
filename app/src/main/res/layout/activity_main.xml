@@ -17,9 +17,12 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:title="Jenu AI"
+            app:title="Voice Automation"
+            app:subtitle="SPEAK • AUTOMATE • SIMPLIFY"
             app:titleCentered="true"
-            app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge">
+            app:subtitleCentered="true"
+            app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge"
+            app:subtitleTextAppearance="@style/TextAppearance.Material3.LabelSmall">
 
             <ImageView
                 android:layout_width="32dp"

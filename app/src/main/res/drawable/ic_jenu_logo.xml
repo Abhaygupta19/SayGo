@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="120dp"
-    android:height="120dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer Glow/Circle -->
     <path
-        android:fillColor="?attr/colorPrimary"
-        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM12,20c-4.41,0 -8,-3.59 -8,-8s3.59,-8 8,-8 8,3.59 8,8 -3.59,8 -8,8z" />
+        android:pathData="M50,10A40,40 0,1 1,49.9 10z"
+        android:strokeWidth="1"
+        android:strokeColor="#3366FF" />
+
+    <!-- Speech Bubble Outline -->
     <path
-        android:fillColor="?attr/colorPrimary"
-        android:pathData="M12,6c-3.31,0 -6,2.69 -6,6s2.69,6 6,6 6,-2.69 6,-6 -2.69,-6 -6,-6zM12,16c-2.21,0 -4,-1.79 -4,-4s1.79,-4 4,-4 4,1.79 4,4 -1.79,4 -4,4z" />
+        android:pathData="M80,45C80,61.57 66.57,75 50,75C45.5,75 41.2,74 37.5,72.2L25,78L28.5,67C23.2,61.5 20,54 20,45C20,28.43 33.43,15 50,15C66.57,15 80,28.43 80,45Z"
+        android:strokeWidth="3"
+        android:strokeColor="#00CCFF" />
+
+    <!-- Microphone Body -->
     <path
-        android:fillColor="?attr/colorSecondary"
-        android:pathData="M12,10c-1.1,0 -2,0.9 -2,2s0.9,2 2,2 2,-0.9 2,-2 -0.9,-2 -2,-2z" />
+        android:pathData="M50,30C46,30 43,33 43,37V53C43,57 46,60 50,60C54,60 57,57 57,53V37C57,33 54,30 50,30Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Microphone Stand/U-Shape -->
+    <path
+        android:pathData="M38,48V53C38,59.6 43.4,65 50,65C56.6,65 62,59.6 62,53V48"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Microphone Base -->
+    <path
+        android:pathData="M50,65V70M42,70H58"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Wave Lines inside Mic -->
+    <path
+        android:pathData="M47,40V50M50,38V52M53,40V50"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00CCFF"
+        android:strokeLineCap="round" />
+
+    <!-- Small Orbital Circle -->
+    <path
+        android:pathData="M75,30A5,5 0,1 1,74.9 30z"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF" />
+
 </vector>

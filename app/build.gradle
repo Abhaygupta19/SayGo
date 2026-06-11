@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.techiguru.jenu'
+    namespace 'com.techiguru.jenuabhay'
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.techiguru.jenu"
+        applicationId "com.techiguru.jenuabhay"
         minSdk 30
         targetSdk 36
         versionCode 1
